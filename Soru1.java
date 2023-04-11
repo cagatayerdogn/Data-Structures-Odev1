@@ -27,9 +27,9 @@ public class Soru1 {
                 if (ondekiKisi == k) {  //İstenen kişi en öndeyse if koşulu doğru olur.
                  if (biletsayisi[k] == 0) { //Eğer istenen kişi biletlerinin tamamını almışsa bu if koşulu da doğru olur.
                         return time + 1; //Zamana 1 ekler ve zaman değişkenine döner.
-                    } //Satır 23 deki if koşulundan önce poll metotunu kullandık, kuyruğun en önündeki elemanı aldık ve sildik.
-                }     //Bu if koşulunda en öndeki kişinin bilet sayısı kontrol edildi ve if koşulu doğruysa 1 bileti eksiltildi.
-                      //Sonrasında, bu kişi kuyruğun en sonuna eklendi. Çünkü hala alacak bileti var.
+                    } 
+                }     
+                      
                 
                 
                 biletSayisi.offer(ondekiKisi);
